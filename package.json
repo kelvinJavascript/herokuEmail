@@ -1,0 +1,20 @@
+{
+  "name": "emailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "emailer.js",
+  "scripts": {
+    "test": "node emailer.js"
+  },
+  "keywords": [
+    "email",
+    "gmail",
+    "nodemailer"
+  ],
+  "author": "Kelvin Chan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemailer": "^5.1.1"
+  }
+}
