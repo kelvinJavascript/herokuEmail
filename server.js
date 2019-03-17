@@ -4,11 +4,11 @@ var express = require('express')
 var app = express(); 
 app.get('/', function (req, res) {
 	res.writeHead("Content-Type","text/html")
-	fs.createReadStream("./html/index.html").pipe(res)
-});
+	res.end('<iframe src="google.com"></iframe>')
+});/*
 app.get('/draw',(req,res)=>{
 	res.writeHead("Content-Type","text/html")
 	fs.createReadStream("./html/draw.html").pipe(res)
-})
+})*/
  
 app.listen(port)
